@@ -14,11 +14,10 @@ Docker containered FastAPI server running on Heroku.
     - [First time deployment](#first-time-deployment)
     - [Automatic deployment](#automatic-deployment)
       - [Secrets](#secrets)
-  - [Dependencies](#dependencies)
-  - [Additional details](#additional-details)
-    - [Always on application](#always-on-application)
-    - [Heroku debug commands](#heroku-debug-commands)
-  - [Licence](#licence)
+- [Additional details](#additional-details)
+  - [Always on application](#always-on-application)
+  - [Heroku debug commands](#heroku-debug-commands)
+- [Licence](#licence)
 
 
 ## Directory structure
@@ -110,20 +109,11 @@ GitHub Action uses secrets to push changes to Heroku. Following secrets are requ
    - Email that you use with Heroku.
 
 
-## Dependencies
-Local install is based on the following installations:
-- Heroku
-  - `pip install heroku`
-- FastAPI and Uvicorn server
-  - `pip install "fastapi[all]"`
-  - OR `pip install fastapi; pip install "uvicorn[standard]"`
-
-
-## Additional details
+# Additional details
 Relevant details for further development, debugging and interaction with the application.
 
 
-### Always on application
+## Always on application
 Heroku application goes to sleep after 30 minutes of inactivity. For example, Kaffeine application can be used to pings the app so that it stays active:  
 http://kaffeine.herokuapp.com/
 
@@ -131,7 +121,7 @@ Deactivation link to Kaffeine:
 http://kaffeine.herokuapp.com/#decaf
 
 
-### Heroku debug commands
+## Heroku debug commands
 Useful command for Heroku debugging:
 ```
 heroku open                     # Open the default app in browser
@@ -142,7 +132,7 @@ heroku ps                       # Info on dyno
 ```
 
 
-## Licence
+# Licence
 
 MIT License
 
