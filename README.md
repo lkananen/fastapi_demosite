@@ -71,8 +71,8 @@ Also optionally, Heroku can be configured to connect to GitHub to allow manual a
 Deployment pipeline architecture.
 
 
-### Secrets
-**Note!** *Required by GitHub Actions.*   
+#### Secrets
+[**Note!** *Required by GitHub Actions.*](#automatic-deployment)   
 
 GitHub Action uses secrets to push changes to Heroku. Following secrets are required to be added to repository's secrets in the repository settings:
 1. HEROKU_API_KEY
