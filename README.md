@@ -68,6 +68,7 @@ heroku open
 
 ### First time deployment
 Heroku application creation is required on the first time.    
+**Note!** *Automated pipeline requires app creation and stack definition.*
 
 Following commands create _example-app-name_ Heroku application. After creation GitHub Actions can be attached to the application in the Heroku portal for [automated deployments](https://devcenter.heroku.com/articles/github-integration).
 
@@ -91,6 +92,8 @@ heroku ps:scale web=1           # sets dynos
 
 
 ### Automatic deployment
+**Note!** *Automated pipeline requires stack definition and app creation from first time deployment AND defining the secrets.*
+
 Based on [GitHub Actions](./.github/workflows/github-actions.yml) and [Heroku deployment configuration](heroku.yml) files. Commit triggers dependency check and deployment to Heroku. See secrets on the required setup on Heroku secrets.   
 Also optionally, Heroku can be configured to connect to GitHub to allow manual and automatic deployments based on the commits. Heroku deployment pipeline does not support build checks or other actions on the [free tier](https://www.heroku.com/pricing).
 
