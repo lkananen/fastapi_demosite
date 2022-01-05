@@ -6,6 +6,7 @@ Docker containered FastAPI server running on Heroku.
 ## Table of Contents
 - [FastAPI demo](#fastapi-demo)
   - [Table of Contents](#table-of-contents)
+  - [Directory structure](#directory-structure)
   - [Example website](#example-website)
   - [Architecture](#architecture)
   - [Setup](#setup)
@@ -18,6 +19,20 @@ Docker containered FastAPI server running on Heroku.
     - [Always on application](#always-on-application)
     - [Heroku debug commands](#heroku-debug-commands)
   - [Licence](#licence)
+
+
+## Directory structure
+
+- `/.github/workflows` Deployment pipeline used by GitHub Actions.
+- `/docs` Documentation files.
+- `/source` Source files and environment configurations for the web server.
+  - `/source/app` Web server application. FastAPI docs and URIs.
+  - `/source/docker-compose.yml` Wer server Docker container compose definition.
+  - `/source/Dockerfile` Web server Docker container definition.
+  - `/source/entry.sh` Web server startup script run in the Docker container.
+  - `/source/requirements.txt` Web server required packages.
+- `Procfile` Heroku process type declaration for the web server startup.
+- `heroku.yml` Heroku process type declaration for the web server startup.
 
 
 ## Example website
