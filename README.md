@@ -38,6 +38,9 @@ Docker containered FastAPI server running on Heroku.
 Demo website starts based on the defined application name:   
 [link](https://example-app-name.herokuapp.com/)
 
+FastAPI automatically creates documentation for the web application. It is accessible as a [docs](https://example-app-name.herokuapp.com/docs) website in Swagger format. Example of this below:
+![Example_API_documentation_website](/source/docs/api_docs.png)
+
 
 ## Architecture
 Deployment pipeline architecture:
