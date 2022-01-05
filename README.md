@@ -6,12 +6,11 @@ Docker containered FastAPI server running on Heroku.
 ## Table of Contents
 - [FastAPI demo](#fastapi-demo)
   - [Table of Contents](#table-of-contents)
-  - [Example website](#example-website)
   - [Setup](#setup)
     - [Local deployment](#local-deployment)
     - [First time deployment](#first-time-deployment)
     - [Automatic deployment](#automatic-deployment)
-    - [Secrets](#secrets)
+      - [Secrets](#secrets)
   - [Dependencies](#dependencies)
   - [Additional details](#additional-details)
     - [Always on application](#always-on-application)
