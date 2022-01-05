@@ -2,9 +2,6 @@
 
 Docker containered FastAPI server running on Heroku.
 
-Build status:   
-[![CI](https://github.com/lkananen/fastapi_demosite/actions/workflows/github-actions.yml/badge.svg)](https://github.com/lkananen/fastapi_demosite/actions/workflows/github-actions.yml)
-
 
 ## Table of Contents
 - [FastAPI demo](#fastapi-demo)
