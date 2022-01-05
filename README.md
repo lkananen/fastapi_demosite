@@ -21,11 +21,6 @@ Build status:
     - [Heroku debug commands](#heroku-debug-commands)
 
 
-## Example website
-Direct link to the site:   
-[link](https://laurijatiia.herokuapp.com/)
-
-
 ## Setup
 
 
