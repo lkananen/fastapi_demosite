@@ -17,6 +17,7 @@ Docker containered FastAPI server running on Heroku.
 - [Additional details](#additional-details)
   - [Always on application](#always-on-application)
   - [Heroku debug commands](#heroku-debug-commands)
+  - [Additional links](#additional-links)
 - [Licence](#licence)
 
 
@@ -136,6 +137,12 @@ heroku run bash                 # Connect to dyno
 heroku ps:exec                  # SSH to dyno
 heroku ps                       # Info on dyno
 ```
+
+
+## Additional links
+
+- [Full stack project template](https://github.com/tiangolo/full-stack-fastapi-postgresql)
+- [Project templates](https://fastapi.tiangolo.com/project-generation/)
 
 
 # Licence
