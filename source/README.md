@@ -8,4 +8,3 @@ The application files create a simple and fast containerized API with automatica
 - `Dockerfile` Web server Docker container definition.
 - `entry.sh` Web server startup script run in the Docker container.
 - `requirements.txt` Web server required packages.
-- 
